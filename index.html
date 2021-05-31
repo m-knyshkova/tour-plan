@@ -12,57 +12,95 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <header class="navbar">
-    <div class="conteiner">
 
-      <div class="navbar-top">
-        
-        <a href="" class="logo">
-          <img src="img/horisontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
-        </a>
+  <body>
+    <header class="navbar">
+      <div class="conteiner">
 
-        <form action="#" class="search header__search">
-          <input 
-          type="text" 
-          class="search__input" 
-          placeholder="Search Location" />
+        <div class="navbar-top">
           
+          <a href="#" class="logo">
+            <img src="img/horisontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
+          </a>
+
+          <form action="#" class="search navbar__search">
+            <input 
+            type="text" 
+            class="search__input" 
+            placeholder="Search Location" />
+                      
+            <button class="search__button">
+              <img src="img/search.svg" alt="icon: search" />
+            </button>
+          </form>
           
-          <button class="search__button">
-            <img src="img/search.svg" alt="icon: search" />
+          <a href="#" class="user navbar__user">
+            <img src="img/user-avatar.jpg" alt="avatar: Nothon" class="user__avatar">
+            <span class="user__name">Nothon</span>
+          </a>
+          <!-- /.user -->
+          <button class="menu-button navbar-top__menu-button">
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
           </button>
-         
-        </form>
-
-        
-        <a href="#" class="user">
-          <img src="img/user-avatar.jpg" alt="avatar: Nothon" class="user__avatar">
-          <span class="user__name">Nothon</span>
-        </a>
-        <!-- /.user -->
-
+        </div>
+        <!-- /.navbar-top -->
       </div>
-      <!-- /.navbar-top -->
+          <!-- /.conteiner -->
 
-      <ul class="navbar-menu">
-        <li class="navbar-menu__item">All Deals<a href="#" class="navbar-menu link"></a></li>
-        <li class="navbar-menu__item">Hotels<a href="#" class="navbar-menu link"></a></li>
-        <li class="navbar-menu__item">Activities<a href="#" class="navbar-menu link"></a></li>
-        <li class="navbar-menu__item">Hotel Day Packages<a href="#" class="navbar-menu link"></a></li>
-        <li class="navbar-menu__item">Restaurants<a href="#" class="navbar-menu link"></a></li>
-        <li class="navbar-menu__item">Events<a href="#" class="navbar-menu link"></a></li>
-        <li class="navbar-menu__item">Rodrigues<a href="#" class="navbar-menu link"></a></li>
+        <div class="navbar-bottom">
+          <div class="conteiner">
+            <ul class="navbar-menu">
+              <li class="navbar-menu__item">
+                <a href="#" class="navbar-menu__link">All Deals</a>
+              </li>
+              
+              <li class="navbar-menu__item">
+                <a href="#" class="navbar-menu__link">Hotels</a>
+              </li>
 
-        
+              <li class="navbar-menu__item">
+                <a href="#" class="navbar-menu__link">Activities</a>
+              </li>
+
+              <li class="navbar-menu__item">
+                <a href="#" class="navbar-menu__link">Hotel Day Packages</a>
+              </li>
+
+              <li class="navbar-menu__item">
+                <a href="#" class="navbar-menu__link">Restaurants</a>
+              </li>
+
+              <li class="navbar-menu__item">
+                <a href="#" class="navbar-menu__link">Events</a>
+              </li>
+
+              <li class="navbar-menu__item">
+                <a href="#" class="navbar-menu__link">Rodrigues</a>
+              </li>
+            </ul>
+              <!-- /.navbar-menu -->
+
+          </div>
+            <!-- /.container -->  
+        </div>
+          <!-- /.navbar-bottom -->
+
+    </header>
+    
+    <nav class="breadcrump">
+      <ul class="breadcrump-list">
+        <li class="breadcromp-list__item">
+          <a href="#" class="breadcrump-list__link">Home</a></li>
+      
+        <li class="breadcromp-list__item">
+          <a href="#" class="breadcrump-list__link">Flash Offers</a></li>
+     
+        <li class="breadcromp-list__item">Grand Hilton Hotel</li>
       </ul>
-      <!-- /.navbar-menu -->
+    </nav>
+    <!-- /.breadcrump -->
 
-
-
-    </div>
-    <!-- /.conteiner -->
-  </header>
-
-</body>
+  </body>
 </html>
