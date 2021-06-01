@@ -385,7 +385,7 @@ template {
 
 .navbar__search {
   margin-right: auto;
-  margin-left: 108px;
+  margin-left: 131px;
 }
 
 .navbar-bottom {
@@ -502,7 +502,7 @@ template {
 }
 
 .hotel {
-  padding-top: 23px;
+  padding-top: 17px;
   padding-bottom: 7px;
 }
 
@@ -554,8 +554,17 @@ template {
 }
 
 .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.stars__point {
+  margin-right: 3px;
 }
 
 .offer {
@@ -581,8 +590,13 @@ template {
   line-height: 10px;
 }
 
-.rating__counter {
+.rating__counterbig {
   font-size: 14px;
+  line-height: 18px;
+}
+
+.rating__countersmall {
+  font-size: 10px;
   line-height: 18px;
 }
 
