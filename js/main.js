@@ -15,3 +15,11 @@ const swiper = new Swiper('.swiper-container', {
   },
   
 });
+
+ ymaps.ready(init);
+      function init() {
+        var myMap = new ymaps.Map("map", {
+          center: [7.83814133, 98.29877635],
+          zoom: 16
+        });
+      }
