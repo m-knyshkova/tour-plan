@@ -900,6 +900,11 @@ template {
   color: #ffffff;
 }
 
+.parallax-window {
+  min-height: 260px;
+  background: transparent;
+}
+
 .reviews {
   padding: 40px 0 70px 0;
 }
