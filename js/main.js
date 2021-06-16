@@ -1,9 +1,5 @@
-const swiper = new Swiper('.hotel-slider', {
-  // Optional parameters
-  //direction: 'vertical',
+const hotelSlider = new Swiper('.hotel-slider', {
   loop: true,
-
-  // Navigation arrows
   navigation: {
     nextEl: '.hotel-slider__button--next',
     prevEl: '.hotel-slider__button--prev',
@@ -15,6 +11,26 @@ const swiper = new Swiper('.hotel-slider', {
   },
   
 });
+
+const reviewsSlider = new Swiper('.reviews-slider', {
+  
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.reviews-slider__button--next',
+    prevEl: '.reviews-slider__button--prev',
+  },
+  
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+  
+});
+
+
+
 
 //  ymaps.ready(init);
 //       function init() {
