@@ -1,8 +1,9 @@
 @media (max-width: 1200px)
-  .conteiner
+  .container
     max-width: 960px
-  .slider
-    width: 590px
+  .hotel
+    &-slider
+      width: 590px
   .swiper
     &-slide
       &__image
@@ -11,7 +12,7 @@
         object-fit: cover
 
 @media (max-width: 992px)
-  .conteiner,
+  .container,
   .newsletter-wrapper
     max-width: 700px
   .logo
@@ -40,22 +41,28 @@
       flex-direction: column
     &__slider
       margin-bottom: 30px
+      width: 100%
     &-right
       flex-direction: row
   .booking
     width: 340px
     padding: 29px 22px 26px 23px
-  .slider
-    width: 100%
+  // .slider
+  //   width: 100%
   .map
     width: 340px
   .newsletter
     margin-top: 50px
     padding-top: 73px
     padding-bottom: 73px
+  .reviews
+    &-slider
+      &__item
+        max-width: 579px
+      
 
 @media (max-width: 768px)
-  .conteiner
+  .container
     max-width: 576px
     width: 92%
   .navbar
@@ -99,11 +106,12 @@
       &__offer
         order: -1
         margin-left: 0
+    &-slider
+      height: 350px
   .breadcrump
     &-list
       padding-bottom: 5px
-  .slider
-    height: 350px
+      
   .hotel
     &-right
       flex-direction: column
@@ -118,16 +126,33 @@
       max-width: 576px
       width: 92%
       align-items: flex-start
+  .reviews
+    &-slider
+      &__item
+        padding: 0 30px 30px
+        &:before, &:after
+          display: none
+      &__button
+        top: 32px
+        &--prev
+          left: 50%
+          margin-left: -65px  
+          transform: translate(-50%, 0)
+        &--next
+          right: 50%
+          margin-right: -65px        
+          transform: translate(50%, 0)
+
 @media (max-width: 576px)
   .logo
     width: 99px
-  .slider
-    height: 179px
   .hotel
     &__slider
       margin-bottom: 20px
     &-right
       min-height: 403px
+    &-slider
+      height: 179px
   .newsletter
     padding: 76px 0 83px 0
     &__title
@@ -135,7 +160,7 @@
   .subscribe
     width: 100%
 @media (max-width: 320px)
-  .conteiner
+  .container
     max-width: 280px
   .hotel
     &-wrapper
