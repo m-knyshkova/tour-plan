@@ -581,6 +581,7 @@ template {
 .hotel-slider {
   width: 730px;
   height: 450px;
+  margin-left: 0;
 }
 
 .hotel-slider__item {
@@ -917,6 +918,7 @@ template {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 70px;
+  margin-top: 0;
 }
 
 .reviews-slider__item {
@@ -944,7 +946,7 @@ template {
   height: 47px;
   position: absolute;
   left: 62px;
-  top: 30px;
+  top: 15px;
   background-image: url(../img/quote-left.svg);
   background-repeat: no-repeat;
 }
@@ -962,7 +964,7 @@ template {
 
 .reviews-slider__button {
   position: absolute;
-  top: 50%;
+  top: 46%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 30px;
@@ -978,12 +980,12 @@ template {
 
 .reviews-slider__button--prev {
   background-image: url(../img/arrow-prev-secondary.svg);
-  left: 0;
+  left: 15px;
 }
 
 .reviews-slider__button--next {
   background-image: url(../img/arrow-next-secondary.svg);
-  right: 0;
+  right: 15px;
 }
 
 .reviews-slider__profile {
@@ -1007,7 +1009,7 @@ template {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-bottom: 9px;
+  margin-bottom: 0;
 }
 
 .reviews-slider__username {
@@ -1121,6 +1123,20 @@ template {
   }
   .reviews-slider__item {
     max-width: 579px;
+  }
+  .reviews-slider__button {
+    top: 50%;
+  }
+  .reviews-slider__button--prev {
+    left: 1px;
+  }
+  .reviews-slider__button--next {
+    right: 1px;
+  }
+  .reviews__title {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1282,6 +1298,10 @@ template {
   .hotel-info {
     padding-bottom: 38px;
   }
+  .reviews__title {
+    font-size: 18px;
+    line-height: 23px;
+  }
   .rating {
     display: none;
   }
@@ -1290,7 +1310,7 @@ template {
   }
   .newsletter {
     margin-top: 35px;
-    padding-top: 66px;
+    padding-top: 62px;
   }
   .newsletter-wrapper {
     max-width: 280px;
@@ -1300,12 +1320,18 @@ template {
     font-weight: 300;
     font-size: 20px;
     line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 45px;
   }
   .newsletter-title__strong {
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 38px;
+  }
+  .parallax-window {
+    min-height: 319px;
+    margin-top: 32px;
   }
 }
 /*# sourceMappingURL=style.css.map */

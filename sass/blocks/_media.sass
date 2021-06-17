@@ -47,8 +47,6 @@
   .booking
     width: 340px
     padding: 29px 22px 26px 23px
-  // .slider
-  //   width: 100%
   .map
     width: 340px
   .newsletter
@@ -59,6 +57,19 @@
     &-slider
       &__item
         max-width: 579px
+      &__button
+        top: 50%
+        &--prev
+          left: 1px
+        &--next
+          right: 1px    
+    &__title
+      font-size: 30px
+      line-height: 38px
+      margin-bottom: 50px
+      
+      
+
       
 
 @media (max-width: 768px)
@@ -121,6 +132,7 @@
   .map
     width: 100%
   .newsletter
+    
     &-wrapper
       flex-direction: column
       max-width: 576px
@@ -142,6 +154,7 @@
           right: 50%
           margin-right: -65px        
           transform: translate(50%, 0)
+    
 
 @media (max-width: 576px)
   .logo
@@ -167,14 +180,18 @@
       justify-content: none
     &-info
       padding-bottom: 38px
+  .reviews  
+    &__title
+      font-size: 18px
+      line-height: 23px
+
   .rating
     display: none
   .map
     height: 173px
   .newsletter
     margin-top: 35px
-    padding-top: 66px
-    
+    padding-top: 62px
     &-wrapper
       max-width: 280px
     &-title
@@ -182,11 +199,18 @@
       font-weight: 300
       font-size: 20px
       line-height: 25px
+      margin-top: 15px
+      margin-bottom: 45px
+      
       &__strong
         font-style: normal
         font-weight: 600
         font-size: 30px
         line-height: 38px
+  .parallax-window
+    min-height: 319px
+    margin-top: 32px
+  
   
 
 
