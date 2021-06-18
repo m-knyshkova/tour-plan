@@ -1278,7 +1278,7 @@ template {
   .newsletter {
     padding: 76px 0 83px 0;
   }
-  .newsletter__title {
+  .newsletter-title {
     margin-bottom: 37px;
   }
   .subscribe {
@@ -1298,9 +1298,31 @@ template {
   .hotel-info {
     padding-bottom: 38px;
   }
+  .reviews {
+    padding-top: 23px;
+  }
   .reviews__title {
     font-size: 18px;
     line-height: 23px;
+    max-width: 240px;
+    margin: auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 45px;
+  }
+  .reviews-slider__button--prev {
+    left: 50%;
+    margin-left: -91px;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .reviews-slider__button--next {
+    right: 50%;
+    margin-right: -91px;
+    -webkit-transform: translate(50%, 0);
+            transform: translate(50%, 0);
   }
   .rating {
     display: none;
@@ -1310,7 +1332,7 @@ template {
   }
   .newsletter {
     margin-top: 35px;
-    padding-top: 62px;
+    padding-top: 60px;
   }
   .newsletter-wrapper {
     max-width: 280px;
@@ -1320,8 +1342,7 @@ template {
     font-weight: 300;
     font-size: 20px;
     line-height: 25px;
-    margin-top: 15px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
   }
   .newsletter-title__strong {
     font-style: normal;

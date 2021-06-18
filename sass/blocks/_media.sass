@@ -131,8 +131,8 @@
     width: 100%
   .map
     width: 100%
+
   .newsletter
-    
     &-wrapper
       flex-direction: column
       max-width: 576px
@@ -168,7 +168,7 @@
       height: 179px
   .newsletter
     padding: 76px 0 83px 0
-    &__title
+    &-title
       margin-bottom: 37px
   .subscribe
     width: 100%
@@ -181,32 +181,48 @@
     &-info
       padding-bottom: 38px
   .reviews  
+    padding-top: 23px
     &__title
       font-size: 18px
       line-height: 23px
+      max-width: 240px
+      margin: auto
+      text-align: center
+      font-style: normal
+      font-weight: 300
+      margin-top: 15px
+      margin-bottom: 45px
+    &-slider
+      &__button
 
+        &--prev
+          left: 50%
+          margin-left: -91px  
+          transform: translate(-50%, 0)
+        &--next
+          right: 50%
+          margin-right: -91px        
+          transform: translate(50%, 0)
   .rating
     display: none
   .map
     height: 173px
   .newsletter
     margin-top: 35px
-    padding-top: 62px
+    padding-top: 60px
     &-wrapper
-      max-width: 280px
+      max-width: 280px 
     &-title
-      font-style: normal
-      font-weight: 300
-      font-size: 20px
-      line-height: 25px
-      margin-top: 15px
-      margin-bottom: 45px
-      
-      &__strong
         font-style: normal
-        font-weight: 600
-        font-size: 30px
-        line-height: 38px
+        font-weight: 300
+        font-size: 20px
+        line-height: 25px
+        margin-bottom: 40px
+        &__strong
+          font-style: normal
+          font-weight: 600
+          font-size: 30px
+          line-height: 38px
   .parallax-window
     min-height: 319px
     margin-top: 32px
