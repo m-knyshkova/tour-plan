@@ -54,8 +54,9 @@ ymaps.ready(function () {
             '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
         ),
 
-        myPlacemark = new ymaps.Placemark(myMap.getCenter([[7.838385750827068,98.29933181913738]],), {
+        myPlacemark = new ymaps.Placemark(myMap.getCenter([[-3.00, -98.30]],), {
             hintContent: 'GRAND HILTON HOTEL',
+            
             //balloonContent: 'Это красивая метка'
         }, {
             // Опции.
@@ -68,29 +69,9 @@ ymaps.ready(function () {
             // Смещение левого верхнего угла иконки относительно
             // её "ножки" (точки привязки).
             iconImageOffset: [-24, -24]
-        }),
-
-        myPlacemarkWithContent = new ymaps.Placemark([55.661574, 37.573856], {
-            hintContent: 'Собственный значок метки с контентом',
-            balloonContent: 'А эта — новогодняя',
-            iconContent: '12'
-        }, {
-            // Опции.
-            // Необходимо указать данный тип макета.
-            iconLayout: 'default#imageWithContent',
-            // Своё изображение иконки метки.
-            iconImageHref: 'images/ball.png',
-            // Размеры метки.
-            iconImageSize: [48, 48],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            iconImageOffset: [-24, -24],
-            // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [15, 15],
-            // Макет содержимого.
-            iconContentLayout: MyIconContentLayout
         });
 
+        
     myMap.geoObjects
         .add(myPlacemark)
         .add(myPlacemarkWithContent);
