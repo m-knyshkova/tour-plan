@@ -30,17 +30,6 @@ const reviewsSlider = new Swiper('.reviews-slider', {
 });
 
 
-
-
-//  ymaps.ready(init);
-//       function init() {
-//         var myMap = new ymaps.Map("map", {
-//           center: [7.83814133, 98.29877635],
-//           zoom: 16
-//         });
-//       }
-
-
 ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
             center: [7.84, 98.30],
