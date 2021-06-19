@@ -1049,7 +1049,7 @@ template {
 }
 
 .activities {
-  padding: 60px 0 98px 0;
+  padding: 43px 0 98px 0;
 }
 
 .activities__title {
@@ -1226,6 +1226,9 @@ template {
     line-height: 38px;
     margin-bottom: 50px;
   }
+  .activities {
+    padding-top: 30px;
+  }
   .activities-wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1235,7 +1238,13 @@ template {
   }
   .card {
     width: 340px;
-    height: 250px;
+    height: 253px;
+  }
+  .card__title {
+    font-size: 16px;
+    line-height: 20px;
+    width: 200px;
+    margin-top: 118px;
   }
 }
 
@@ -1463,6 +1472,19 @@ template {
   .parallax-window {
     min-height: 319px;
     margin-top: 32px;
+  }
+  .activities {
+    padding-top: 5px;
+  }
+  .activities__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 5px;
+    margin-bottom: 38px;
+  }
+  .card {
+    height: 250px;
   }
 }
 /*# sourceMappingURL=style.css.map */
