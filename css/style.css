@@ -1108,6 +1108,8 @@ template {
   bottom: 0;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
+  height: 100%;
   z-index: -2;
 }
 
@@ -1142,6 +1144,10 @@ template {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .card {
+    width: 230px;
+    height: 230px;
   }
 }
 
@@ -1219,6 +1225,17 @@ template {
     font-size: 30px;
     line-height: 38px;
     margin-bottom: 50px;
+  }
+  .activities-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .activities__card {
+    margin-bottom: 20px;
+  }
+  .card {
+    width: 340px;
+    height: 250px;
   }
 }
 
@@ -1342,6 +1359,14 @@ template {
     -webkit-transform: translate(50%, 0);
             transform: translate(50%, 0);
   }
+  .card {
+    width: 49%;
+    height: 255px;
+  }
+  .activities {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1364,6 +1389,9 @@ template {
     margin-bottom: 37px;
   }
   .subscribe {
+    width: 100%;
+  }
+  .card {
     width: 100%;
   }
 }
