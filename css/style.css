@@ -1117,6 +1117,10 @@ template {
   margin-top: auto;
   margin-bottom: 18px;
   color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .card__button {
@@ -1245,6 +1249,10 @@ template {
     line-height: 20px;
     width: 200px;
     margin-top: 118px;
+  }
+  .card__title__image {
+    max-width: 339px;
+    maix-height: 255px;
   }
 }
 
@@ -1484,7 +1492,30 @@ template {
     margin-bottom: 38px;
   }
   .card {
-    height: 250px;
+    height: 255px;
+  }
+  .action1 {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-bottom: 20px;
+  }
+  .action2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 20px;
+  }
+  .action3 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 28px;
+  }
+  .action4 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 /*# sourceMappingURL=style.css.map */
